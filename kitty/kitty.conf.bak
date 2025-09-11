@@ -1,0 +1,38 @@
+# Cyberpunk Kitty Config (minimal)
+
+# Font
+font_family      JetBrainsMono Nerd Font
+font_size        10.0
+
+# Colors
+background       #0a0a0f
+foreground       #00f6ff
+
+cursor           #ffd319
+cursor_text_color #0a0a0f
+
+selection_foreground #0a0a0f
+selection_background #ffd319
+
+color0  #0a0a0f
+color1  #ff003c
+color2  #00ffff
+color3  #ffd319
+color4  #00ffff
+color5  #ff003c
+color6  #00ffff
+color7  #ffffff
+color8  #333333
+color9  #ff003c
+color10 #00ffff
+color11 #ffd319
+color12 #00ffff
+color13 #ff003c
+color14 #00ffff
+color15 #ffffff
+
+
+
+# Optional transparency
+background_opacity 0.9
+
