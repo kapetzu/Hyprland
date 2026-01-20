@@ -1,0 +1,105 @@
+/* @import "/home/kape/.cache/wal/colors-rofi-dark.rasi"
+ Replace the path with your USERNAME */
+
+* {
+    light-red: #FD625A;
+    dark-red: #2C0E10;
+    cyan-blue: #00ffff;
+    dark-black: #0D0C14;
+    bg: #331013;
+    green: #38F49A;
+
+    font:   "ShureTechMono Nerd Font Mono 14";
+    margin:     0px;
+    padding:    0px;
+    spacing:    0px;
+    border-color: @light-red;
+}
+
+configuration {
+    modi: "drun,run,window,emoji,calc";
+    show-icons: true;
+    kb-row-up: "Up,Control+k,Shift+Tab,Shift+ISO_Left_Tab";
+    kb-row-down: "Down,Control+j";
+    kb-accept-entry: "Return,KP_Enter";
+    kb-remove-to-eol: "Control+Shift+e";
+    kb-mode-previous: "Control+h";
+    kb-mode-complete: "Control+i";
+    kb-mode-next: "Control+l";
+    kb-remove-char-back: "BackSpace";
+    
+}
+
+window {
+    location:       north;
+    y-offset:       calc(50% - 200px);
+    width:          480;
+    border-radius:  12px;
+    border: 4px;
+    background-color: @bg;
+    
+}
+
+mainbox {
+    padding:    12px;
+}
+
+inputbar {
+    border:         2px;
+    border-radius:  8px;
+    padding:    8px 16px;
+    spacing:    8px;
+    children:   [ "prompt", "entry"];
+    border-color: @light-red;
+    text-color: @cyan-blue;
+}
+
+prompt {
+    enabled: true;
+    text-color: @cyan-blue;
+}
+
+entry {
+    placeholder: "Search";
+    placeholder-color: @cyan-blue;
+    text-color: @cyan-blue;
+}
+
+listview {
+    margin: 12px 0 0;
+    lines: 8;
+    columns: 1;
+    fixed-height: true;
+}
+
+element {
+    padding:        8px 16px;
+    spacing:        8px;
+    border-radius:  8px;
+}
+
+element normal active {
+}
+
+element alternate active {
+}
+
+element normal normal, element alternate normal {
+  background-color: @dark-black;
+  text-color: @cyan-blue;
+}
+
+element selected normal {
+  background-color: #7C2627;
+  text-color: @cyan-blue;
+}
+
+element-icon {
+    size:           1em;
+    vertical-align: 0.5;
+}
+
+element-text {
+    text-color: inherit;
+}
+
