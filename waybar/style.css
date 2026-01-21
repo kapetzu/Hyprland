@@ -177,11 +177,11 @@ window#waybar.hidden {
 }
 
 #custom-previous {
-  margin: 0 6 0 4px;
+  margin: 0px 6px 0px 4px;
 }
 
 #custom-pause {
-  margin: 0 8px;
+  margin: 0px 8px;
 }
 
 #custom-next {
